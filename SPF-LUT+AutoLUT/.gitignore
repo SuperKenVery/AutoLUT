@@ -1,0 +1,5 @@
+data
+models/
+!models/**/*.log
+**/__pycache__/
+logs/
