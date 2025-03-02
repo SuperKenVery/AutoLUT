@@ -40,6 +40,3 @@ python 3_finetune_lut.py \
 ```
 
 You'll see the PSNR values in the process of fine-tuning.
-
-# Contact
-Feel free to file an issue if you have any problems!
