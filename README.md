@@ -6,6 +6,8 @@ This is the official repo for CVPR 2025 paper "AutoLUT: LUT-Based Image Super-Re
 
 Authors: Yuheng Xu, Shijie Yang, Xin Liu, Jie Liu, Jie Tang, Gangshan Wu
 
+[paper](https://arxiv.org/abs/2503.01565)
+
 # Usage
 
 1. Build the environment:
@@ -17,6 +19,9 @@ conda env create -f AutoLUTEnvironment.yaml
 
 # Contact
 If you have any problems, please feel free to file an issue.
+
+# Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=SuperKenVery/AutoLUT&type=Date)](https://star-history.com/#SuperKenVery/AutoLUT&Date)
 
 # Acknowledgments
 
