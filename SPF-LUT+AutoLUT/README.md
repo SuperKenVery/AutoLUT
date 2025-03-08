@@ -38,7 +38,7 @@ python 2_compress_lut_from_net.py \
     --modes s \
     --sample-size 5 \
     --loadIter 200000 \
-    --lutName spf_lut_x4
+    --lutName spf_lut_light
 ```
 
 3. Finetune LUTs
@@ -51,7 +51,8 @@ python 3_finetune_compress_lut.py \
     --expDir ../models/spf_lut_autolut/ \
     --trainDir ../data/DIV2K \
     --valDir ../data/SRBenchmark \
-    --sample-size 5
+    --sample-size 5 \
+    --load_lutName spf_lut_light
 ```
 
 You'll be able to see the PSNR values in the process of finetuning.
