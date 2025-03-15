@@ -17,7 +17,18 @@ conda env create -f AutoLUTEnvironment.yaml
 
 2. Follow the README.md in each folder.
 
+# SR Results
+
+You can download the super-resolution results from [aliyun drive](https://www.alipan.com/s/4LSqy2TF1mg)
+
+Because Aliyun drive doesn't support sharing `.tar.gz` files, I encoded them with `base64` and uploaded them as text files. You'll need to extract them like this:
+
+```console
+cat file.txt | base64 -d | tar -xzvf -
+```
+
 # Contact
+
 If you have any problems, please feel free to file an issue.
 
 # Star History
